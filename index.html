@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@600;800&family=Overpass:wght@400;700&family=Poppins:wght@400;500;600;700&family=Space+Mono:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="main.scss">
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Simple, traffic-based pricing</h1>
+            <p>Sign-up for our 30-day trial. No credit card required.</p>
+            <div>
+                <!-- <img src="images/pattern-circles.svg" alt=""> -->
+            </div>
+        </header>
+
+        <div class="cart">
+            <div class="cart-price">
+                <p class="pages-views"> <span class="views">150k</span> Pageviews</p>
+                <p class="price-container"> <span class="price">$16.00</span> <span class="duration">/month</span></p>
+            </div>
+            <div class="slider">
+                <input type="range" min="1" max="5" value="3" step="1" class="my-range" />
+            </div>
+            <div class="progress">
+                <span>Monthly Billing</span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider-checkbox round"></span>
+                </label>
+                <span>Yearly Billng</span>
+                <span class="discount">25 % discount</span>
+
+            </div>
+            <hr>
+            <div class="text">
+                <ul>
+                    <li> Unlimited websites</li>
+                    <li>100% data ownership
+                    </li>
+                    <li> Email reports</li>
+                </ul>
+
+                <button class="btn"> Start my trial</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
