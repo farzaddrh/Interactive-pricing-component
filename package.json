@@ -2,14 +2,10 @@
     "name": "pricing-component-main",
     "version": "1.0.0",
     "description": "![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)",
-    "defalt": "script.js",
+    "default": "script.js",
     "scripts": {
         "start": "parcel ./src/index.html",
-        "prebuild-dev": "shx rm -rf dist/*",
-        "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
-        "prebuild": "shx rm -rf dist/*",
-        "build": "parcel build ./src/index.html --public-url ./",
-        "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+        "build": "parcel build ./src/index.html --dist-dir .dist"
     },
     "author": "",
     "license": "ISC",
